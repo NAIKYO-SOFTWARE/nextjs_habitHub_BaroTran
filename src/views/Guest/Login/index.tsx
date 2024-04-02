@@ -1,7 +1,5 @@
 'use client';
-import { SubmitHandler } from 'react-hook-form';
-
-import Button from '@/src/component/BaseUI/Button';
+import Image from 'next/image';
 import ButtonCircle from '@/src/component/BaseUI/ButtonCircle';
 import Footer from '@/src/component/Feature/Layouts/Footer';
 import Underlined from '@/src/component/Underlined';
@@ -30,13 +28,28 @@ function Login() {
             </p>
             <div className="flex justify-evenly pt-[30px]">
                 <ButtonCircle primary>
-                    <img src="/Facebook-f_Logo.png" />
+                    <Image
+                        src="/Facebook-f_Logo.png"
+                        alt=""
+                        width={125}
+                        height={24}
+                    />
                 </ButtonCircle>
                 <ButtonCircle primary>
-                    <img src="/Google_Pay-Logo.png" />
+                    <Image
+                        src="/Google_Pay-Logo.png"
+                        alt=""
+                        width={125}
+                        height={24}
+                    />
                 </ButtonCircle>
                 <ButtonCircle primary>
-                    <img src="/Apple_Inc.-Logo.png" />
+                    <Image
+                        src="/Apple_Inc.-Logo.png"
+                        alt=""
+                        width={125}
+                        height={24}
+                    />
                 </ButtonCircle>
             </div>
             <div>

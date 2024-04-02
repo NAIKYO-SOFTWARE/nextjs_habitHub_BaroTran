@@ -1,5 +1,7 @@
+import ContractPage from '@/src/views/Guest/Contract';
+
 function Contract() {
-    return <h1>Contract</h1>;
+    return <ContractPage />;
 }
 
 export default Contract;

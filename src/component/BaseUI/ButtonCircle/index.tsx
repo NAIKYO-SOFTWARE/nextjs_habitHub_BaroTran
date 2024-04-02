@@ -27,7 +27,7 @@ function ButtonCircle({ to, children, primary, onClick }: ButtonProps) {
         );
     }
     return (
-        <button className={classes} onClick={handleClick}>
+        <button className={classes}>
             <span>{children}</span>
         </button>
     );

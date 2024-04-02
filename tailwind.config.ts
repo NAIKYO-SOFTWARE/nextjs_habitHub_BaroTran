@@ -14,7 +14,9 @@ const config: Config = {
                 'gradient-conic':
                     'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
             },
-            backgroundColor: {},
+            fontFamily: {
+                body: ['Roboto'],
+            },
             fontSize: {
                 '12': '12px',
                 '14': '14px',

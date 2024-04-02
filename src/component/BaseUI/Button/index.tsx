@@ -27,7 +27,7 @@ function Button({ to, children, primary, type, onClick }: ButtonProps) {
         );
     }
     return (
-        <button type={type} className={classes} onClick={handleClick}>
+        <button type={type} className={classes}>
             <span>{children}</span>
         </button>
     );

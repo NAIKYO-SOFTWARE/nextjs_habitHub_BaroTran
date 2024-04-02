@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import { useRouter } from 'next/navigation';
 import Button from '@/src/component/BaseUI/Button';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { useAppDispatch } from '@/src/lib/hooks';
@@ -18,10 +19,12 @@ const LoginForm: React.FC = () => {
     } = useForm<FormData>();
 
     const dispatch = useAppDispatch();
-
+    const router = useRouter();
     const onSubmit: SubmitHandler<FormData> = (data) => {
-        // console.log(data);
         dispatch(setLogin(data));
+        if (data) {
+            router.push('/contract');
+        }
     };
 
     return (
@@ -65,7 +68,7 @@ const LoginForm: React.FC = () => {
             </div>
 
             <div className="pt-[40px]">
-                <Button to="/contract" type="submit" primary>
+                <Button type="submit" primary>
                     Login
                 </Button>
             </div>
