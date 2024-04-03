@@ -1,8 +1,8 @@
 'use client';
 
-import Footer from '@/src/component/Feature/Layouts/Footer';
+import Footer from '@/src/components/Feature/Layouts/Footer';
 import ListContract from './components/ListContract';
-import Button from '@/src/component/BaseUI/Button';
+import Button from '@/src/components/BaseUI/Button';
 
 const data = [
     {

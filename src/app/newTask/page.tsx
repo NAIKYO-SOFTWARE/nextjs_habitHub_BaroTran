@@ -1,12 +1,12 @@
 'use client';
 
-import { Button } from '@/src/component/BaseUI/ButtonMUI';
+import ButtonBaseUI from '@/src/component/BaseUI/ButtonMUI';
 
 function NewTask() {
     return (
-        <Button variant="outlined" pill>
-            On
-        </Button>
+        <div>
+            <ButtonBaseUI title="Test" />
+        </div>
     );
 }
 

@@ -1,12 +1,17 @@
 import { configureStore } from '@reduxjs/toolkit';
-import loginReducer from '../lib/features/login/loginSilce';
+import loginReducer from './features/login/loginSlice';
+import workListReducer from './features/WorkList/WorkListSlice';
 
-const rootReducer = {
-    login: loginReducer,
-};
+// const rootReducer = {
+//     login: loginReducer,
+//     workList: workListReducer,
+// };
 
 export const store = configureStore({
-    reducer: rootReducer,
+    reducer: {
+        login: loginReducer,
+        workList: workListReducer,
+    },
 });
 
 export default store;

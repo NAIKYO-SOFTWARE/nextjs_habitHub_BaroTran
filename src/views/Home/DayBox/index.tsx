@@ -4,7 +4,7 @@ import styles from './DayBox.module.scss';
 const cx = classNames.bind(styles);
 
 export default function DayBox() {
-    const daysOfWeek = ['Sun', 'Mon', 'Tues', 'Wed', 'Thu', 'Fri', 'Sat'];
+    const daysOfWeek = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
     const today = new Date();
 

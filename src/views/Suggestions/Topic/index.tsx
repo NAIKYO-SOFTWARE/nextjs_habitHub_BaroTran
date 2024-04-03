@@ -15,5 +15,4 @@ function Topic({ title, desc, icon }: IProps) {
         </div>
     );
 }
-
 export default Topic;

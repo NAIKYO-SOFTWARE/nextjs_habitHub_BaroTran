@@ -1,7 +1,7 @@
 'use client';
-import Button from '@/src/component/BaseUI/Button';
-import ButtonCircle from '@/src/component/BaseUI/ButtonCircle';
-import Underlined from '@/src/component/Underlined';
+import Button from '@/src/components/BaseUI/Button';
+import ButtonCircle from '@/src/components/BaseUI/ButtonCircle';
+import Underlined from '@/src/components/Underlined';
 
 function Page() {
     return (

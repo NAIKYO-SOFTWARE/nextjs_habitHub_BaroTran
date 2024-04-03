@@ -8,3 +8,12 @@
     justify-content: center;
     align-items: center;
 }
+.list-task {
+    padding: 0px 20px;
+    height: 250px;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+.list-task::-webkit-scrollbar {
+    display: none; /* Ẩn thanh trượt */
+}

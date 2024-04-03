@@ -1,8 +1,8 @@
 'use client';
 import Image from 'next/image';
-import ButtonCircle from '@/src/component/BaseUI/ButtonCircle';
-import Footer from '@/src/component/Feature/Layouts/Footer';
-import Underlined from '@/src/component/Underlined';
+import ButtonCircle from '@/src/components/BaseUI/ButtonCircle';
+import Footer from '@/src/components/Feature/Layouts/Footer';
+import Underlined from '@/src/components/Underlined';
 import LoginForm from './components/LoginForm';
 import { useAppSelector } from '@/src/lib/hooks';
 

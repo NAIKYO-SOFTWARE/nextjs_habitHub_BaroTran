@@ -1,10 +1,10 @@
 'use client';
 import React from 'react';
 import { useRouter } from 'next/navigation';
-import Button from '@/src/component/BaseUI/Button';
+import Button from '@/src/components/BaseUI/Button';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { useAppDispatch } from '@/src/lib/hooks';
-import { setLogin } from '@/src/lib/features/login/loginSilce';
+import { setLogin } from '@/src/lib/features/login/loginSlice';
 
 interface FormData {
     email: string;
