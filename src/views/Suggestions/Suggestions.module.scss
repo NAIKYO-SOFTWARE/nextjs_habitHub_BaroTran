@@ -1,0 +1,8 @@
+.list {
+    height: 400px;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+.list::-webkit-scrollbar {
+    display: none; /* Ẩn thanh trượt */
+}
